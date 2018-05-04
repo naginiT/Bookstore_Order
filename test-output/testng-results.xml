@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50186" started-at="2018-05-04T14:09:12Z" finished-at="2018-05-04T14:10:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50186" started-at="2018-05-04T14:09:12Z" finished-at="2018-05-04T14:10:02Z">
+      <class name="Execution.execute">
+        <test-method status="PASS" signature="process()[pri:0, instance:Execution.execute@1a1d6a08]" name="process" duration-ms="50116" started-at="2018-05-04T14:09:12Z" finished-at="2018-05-04T14:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- process -->
+      </class> <!-- Execution.execute -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
