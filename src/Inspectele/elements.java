@@ -1,8 +1,13 @@
 package Inspectele;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
+
+import com.tigervnc.rfb.screenTypes;
 
 import Browser.browsercode;
 
@@ -21,7 +26,16 @@ public class elements extends browsercode{
 	static By telephne=By.name("telephone");
 	static By fax=By.name("fax");
 	static By contnue=By.xpath("//*[@id=\"content\"]/form/div/div[2]/input");
-
+	
+	static By Home= By.xpath("//*[@id=\"bs-megamenu\"]/ul/li[1]/a/span[2]");
+	static By addtocart = By.xpath("//*[@id=\"button-cart\"]");
+	static By shoppingcart = By.xpath("//*[@id=\"cart\"]/div/div[2]/h4");
+	static By viewcart = By.xpath("//*[@id=\"cart\"]/ul/li[2]/div/p/a[1]");
+	
+	
+	
+	
+	
 	/*public static WebElement log(WebDriver driver) 
 	{
 		super();
@@ -85,21 +99,27 @@ public class elements extends browsercode{
 		element= driver.findElement(contnue);
 		return element;
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		public static WebElement home() 
+		{
+		element= driver.findElement(Home);
+		return element;
+		}
+		public static void scrolling() {
+			  JavascriptExecutor js = (JavascriptExecutor)driver;
+			  js.executeScript("window.scrollBy(0,750)");
+		}
+		public static WebElement addtocart() {
+			element = driver.findElement(addtocart);
+			return element;
+		}
+		public static WebElement shoppingcart() {
+			element = driver.findElement(shoppingcart);
+			return element;
+		}
+		public static WebElement viewcart() {
+			element = driver.findElement(viewcart);
+			return element;
+		}
 	}
 
 

@@ -10,6 +10,8 @@ public class execute {
 	public  void process() throws Exception {
 		browsercode.Browser();
 		operations.actions();
+		browsercode.scrnsht();
+		operations.taskstatus();
 		
 	}
 

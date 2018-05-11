@@ -1,50 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="D:/mounika/selenium/client-combined-3.11.0.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/selenium/client-combined-3.11.0-sources.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/selenium/libs/byte-buddy-1.7.9.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/selenium/libs/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/selenium/libs/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/selenium/libs/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/selenium/libs/gson-2.8.2.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/selenium/libs/guava-23.6-jre.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/selenium/libs/httpclient-4.5.3.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/selenium/libs/httpcore-4.4.6.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/selenium/libs/okhttp-3.9.1.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/selenium/libs/okio-1.13.0.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/poi-3.17 - Copy.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/poi-3.17.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/poi-examples-3.17 - Copy.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/poi-examples-3.17.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/poi-excelant-3.17.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/poi-ooxml-3.17.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/poi-scratchpad-3.17.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/ooxml-lib/curvesapi-1.04.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/ooxml-lib/xmlbeans-2.6.0.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/lib/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/lib/commons-collections4-4.1.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/lib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/lib/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/poi-3.17/lib/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/ashot-1.5.4.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/cglib-nodep-2.1_3.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/commons-io-2.5.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/gson-2.6.2.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/guava-19.0.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/hamcrest-core-1.3.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/httpclient-4.5.1.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/httpcore-4.4.3.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/jna-4.1.0.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/jna-platform-4.1.0.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/selenium-api-2.53.0.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/selenium-remote-driver-2.53.0.jar"/>
-	<classpathentry kind="lib" path="D:/mounika/jar_files (1)/selenium-server-standalone-3.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/ashot-1.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/ashot-1.5.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/bridj-0.6.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/byte-buddy-1.7.5.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/client-combined-3.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/client-combined-3.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/jintellitype-1.3.7.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/jxgrabkey-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/sikulixapi.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/sikulixlibslux-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/sikulixlibswin.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/sikulixsetup-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/swing-layout-1.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/selenium/WORKSPACE/jars/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
